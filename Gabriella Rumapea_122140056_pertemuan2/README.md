@@ -1,34 +1,42 @@
 
-# 🎓 Personal Dashboard Mahasiswa
+# Personal Dashboard Mahasiswa
 
-Dashboard ini dibuat untuk membantu mahasiswa dalam mengatur aktivitas hariannya secara efisien dan interaktif.
+Proyek ini dibuat untuk membantu mahasiswa dalam mengatur aktivitas harian secara praktis dan interaktif. Dashboard ini berisi berbagai fitur penting yang mendukung produktivitas sehari-hari.
 
-## ✨ Fitur Utama
-- ✅ **To-Do List** — Tambah dan hapus daftar tugas, disimpan di localStorage
-- 📝 **Catatan Markdown** — Buat catatan yang dirender otomatis dalam format Markdown
-- 🌤️ **Widget Cuaca** — Info cuaca terkini dari API Open-Meteo
-- 🕓 **Jam Dunia** — Tampilkan waktu real-time zona Jakarta
-- 📅 **Kalender Google** — Embed Google Calendar kamu sendiri
-- 🤖 **Mini ChatGPT** — Simulasi Chat Assistant lokal
-- 🌓 **Dark Mode Toggle** — Dukungan tema gelap
-- 🔄 **Penyimpanan Otomatis** — Semua data tersimpan otomatis di browser
+## Fitur Utama
 
-## 💡 Kreativitas
-Aplikasi ini dirancang sebagai **Personal Dashboard Mahasiswa** agar lebih produktif, dengan fitur seperti:
-- Pencatatan cepat
-- Pengingat tugas
-- Akses cuaca dan waktu secara real-time
+- **To-Do List** — Menambahkan dan menghapus daftar tugas, dengan penyimpanan otomatis di browser
+- **Catatan Markdown** — Menulis catatan dengan dukungan format Markdown
+- **Cuaca Terkini** — Menampilkan informasi cuaca menggunakan API dari Open-Meteo
+- **Jam Dunia** — Menampilkan waktu real-time dengan zona waktu Jakarta
+- **Kalender Google** — Menyisipkan kalender pribadi menggunakan embed Google Calendar
+- **Mini Chat Assistant** — Fitur simulasi asisten chat lokal
+- **Dark Mode** — Opsi tampilan tema gelap
+- **Penyimpanan Otomatis** — Semua data (tugas dan catatan) langsung disimpan di localStorage
 
-## 🧠 Implementasi Fitur ES6+
-- `let` & `const` digunakan secara konsisten
-- ✅ **3+ Arrow Functions**: event listener, render, add/delete todo
-- ✅ **Template Literals**: untuk menampilkan list & chat
-- ✅ **Async/Await**: pengambilan data cuaca dari API
-- ✅ **Class**: `TodoApp` untuk logika to-do list
+## Tujuan dan Manfaat
 
-## 📸 Screenshot
+Aplikasi ini dikembangkan sebagai dashboard pribadi untuk membantu mahasiswa tetap terorganisir dan produktif. Beberapa fungsi utamanya meliputi:
+
+- Menulis catatan cepat dengan Markdown
+- Mengatur tugas dan kegiatan harian
+- Melihat informasi cuaca dan jam secara otomatis
+- Tempat untuk menulis catatan ringan atau sekadar mencurahkan isi pikiran
+
+Tampilan dibuat modern, ringan, dan responsif dengan menggunakan Tailwind CSS CDN.
+
+## Penggunaan Fitur JavaScript Modern (ES6+)
+
+- Penggunaan `let` dan `const` secara konsisten
+- Implementasi **arrow function** pada berbagai fungsi seperti event listener, render list, dan lainnya
+- **Template literal** digunakan untuk menampilkan konten HTML dinamis
+- **Async/await** untuk pengambilan data cuaca dari API
+- **Class** `TodoApp` digunakan untuk mengelola logika to-do list
+
+## Screenshot
+
 ![Dashboard Screenshot](screenshot.png)
 
 ---
 
-> Dibuat untuk Tugas Praktikum [NextGen JavaScript](https://learn-ifitera.vercel.app/pemrograman-web/nextgen-javascript)
+Proyek ini merupakan bagian dari Tugas Praktikum [NextGen JavaScript](https://learn-ifitera.vercel.app/pemrograman-web/nextgen-javascript)
