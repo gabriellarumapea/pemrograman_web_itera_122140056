@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="id" class="">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Mahasiswa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class'
+  }
+</script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .chat-bubble {
+      @apply p-2 bg-gray-100 dark:bg-gray-700 rounded-xl shadow-sm;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+  <header class="max-w-5xl mx-auto px-4 py-6 flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-gray-800 dark:text-white">🎓 Dashboard Mahasiswa</h1>
+    <button id="dark-mode-toggle" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium">Dark Mode</button>
+  </header>
+
+  <main class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 pb-12">
+
+    <!-- TO-DO LIST -->
+    <section class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow p-5">
+      <h2 class="text-xl font-semibold mb-4">✅ To-Do List</h2>
+      <input id="todo-input" class="w-full p-2 mb-3 rounded-md bg-gray-100 dark:bg-gray-700 text-black dark:text-white" placeholder="Tambah tugas..." />
+      <ul id="todo-list" class="space-y-2 text-sm list-inside"></ul>
+    </section>
+
+    <!-- NOTES -->
+    <section class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow p-5">
+      <h2 class="text-xl font-semibold mb-4">📝 Catatan</h2>
+      <textarea id="markdown-input" rows="5" class="w-full p-2 rounded-md bg-gray-100 dark:bg-gray-700 text-black dark:text-white" placeholder="Tulis sesuatu..."></textarea>
+      <div id="markdown-preview" class="prose dark:prose-invert text-sm mt-3"></div>
+    </section>
+
+    <!-- WEATHER + CLOCK -->
+    <section class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow p-5">
+      <h2 class="text-xl font-semibold mb-4">🌦️ Info Harian</h2>
+      <div id="weather" class="text-sm mb-3 text-gray-600 dark:text-gray-300">Memuat cuaca...</div>
+      <div id="world-clock" class="text-sm text-gray-600 dark:text-gray-300"></div>
+    </section>
+
+    <!-- CALENDAR -->
+    <section class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow p-5 col-span-1 sm:col-span-2">
+      <h2 class="text-xl font-semibold mb-4">📅 Kalender</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=Asia%2FJakarta" class="w-full rounded-md h-[300px]" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- CHAT NOTES -->
+    <section class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow p-5">
+      <h2 class="text-xl font-semibold mb-4">💬 Tempat Curhat</h2>
+      <input id="chat-input" class="w-full p-2 mb-3 rounded-md bg-gray-100 dark:bg-gray-700 text-black dark:text-white" placeholder="Tulis sesuatu..." />
+      <div id="chat-log" class="text-sm space-y-3"></div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
