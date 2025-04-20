@@ -44,7 +44,7 @@ Aplikasi ini dibuat menggunakan React untuk membantu pengguna mencatat, mencari,
 ## 🖼️ Screenshot Antarmuka
 
 ### Halaman Utama
-![HomePage Screenshot](./screenshots/homepage.jpg)
+![HomePage Screenshot](homepage.jpg)
 
 ### Form Tambah/Ubah Buku
 ![Form Screenshot](./screenshots/form.png)
