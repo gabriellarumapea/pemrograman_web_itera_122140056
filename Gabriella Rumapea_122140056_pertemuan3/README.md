@@ -47,10 +47,10 @@ Aplikasi ini dibuat menggunakan React untuk membantu pengguna mencatat, mencari,
 ![HomePage Screenshot](homepage.jpg)
 
 ### Form Tambah/Ubah Buku
-![Form Screenshot](./screenshots/form.png)
+![Form Screenshot](form.jpg)
 
 ### Tampilan Mobile
-![Mobile Screenshot](./screenshots/mobile.png)
+![Mobile Screenshot](edit.jpg)
 
 > 📷 Simpan gambar-gambar di folder public/screenshots/ agar link tidak error saat dibuka di GitHub.
 
