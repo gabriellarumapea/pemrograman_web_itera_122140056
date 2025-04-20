@@ -20,7 +20,7 @@ Aplikasi ini dibuat menggunakan React untuk membantu pengguna mencatat, mencari,
 
    ```bash
    git clone https://github.com/gabriellarumapea/pemrograman_web_itera_122140056.git
-   cd pemrograman_web_itera_122140056
+   cd Gabriella Rumapea_122140056_pertemuan3
    ```
 
 2. Install dependencies:
