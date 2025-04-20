@@ -19,8 +19,8 @@ Aplikasi ini dibuat menggunakan React untuk membantu pengguna mencatat, mencari,
 1. Clone repositori ini:
 
    ```bash
-   git clone https://github.com/username/manajemen-buku.git
-   cd manajemen-buku
+   git clone https://github.com/gabriellarumapea/pemrograman_web_itera_122140056.git
+   cd pemrograman_web_itera_122140056
    ```
 
 2. Install dependencies:
@@ -51,8 +51,6 @@ Aplikasi ini dibuat menggunakan React untuk membantu pengguna mencatat, mencari,
 
 ### Tampilan Mobile
 ![Mobile Screenshot](edit.jpg)
-
-> 📷 Simpan gambar-gambar di folder public/screenshots/ agar link tidak error saat dibuka di GitHub.
 
 ## ⚛️ Fitur React yang Digunakan
 
