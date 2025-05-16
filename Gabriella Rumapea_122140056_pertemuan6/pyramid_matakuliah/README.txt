@@ -1,43 +1,23 @@
-pyramid_matakuliah
-==================
+# Sistem Manajemen Mata Kuliah
 
-Getting Started
----------------
+Aplikasi web sederhana menggunakan Pyramid (Python) untuk backend dan React.js untuk frontend.
 
-- Change directory into your newly created project.
+## Deskripsi
 
-    cd pyramid_matakuliah
+Proyek ini berisi sistem manajemen mata kuliah yang memungkinkan pengguna untuk:
+- Melihat daftar mata kuliah
+- Menambah mata kuliah baru
+- Mengedit mata kuliah
+- Menghapus mata kuliah
 
-- Create a Python virtual environment.
+Backend menggunakan Pyramid dengan database PostgreSQL dan SQLAlchemy.
+Frontend menggunakan React.js dengan komunikasi API REST ke backend.
 
-    python3 -m venv env
+## Instalasi dan Setup
 
-- Upgrade packaging tools.
+### Backend
 
-    env/bin/pip install --upgrade pip setuptools
+1. Clone repo dan masuk ke folder backend
 
-- Install the project in editable mode with its testing requirements.
-
-    env/bin/pip install -e ".[testing]"
-
-- Initialize and upgrade the database using Alembic.
-
-    - Generate your first revision.
-
-        env/bin/alembic -c development.ini revision --autogenerate -m "init"
-
-    - Upgrade to that revision.
-
-        env/bin/alembic -c development.ini upgrade head
-
-- Load default data into the database using a script.
-
-    env/bin/initialize_pyramid_matakuliah_db development.ini
-
-- Run your project's tests.
-
-    env/bin/pytest
-
-- Run your project.
-
-    env/bin/pserve development.ini
+```bash
+cd pyramid_matakuliah
